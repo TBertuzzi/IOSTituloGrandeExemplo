@@ -13,7 +13,7 @@ namespace IOSTituloGrandeExemplo
 		{
 			InitializeComponent();
 
-			MainPage = new IOSTituloGrandeExemplo.MainPage();
+            MainPage = new NavigationPage(new IOSTituloGrandeExemplo.MainPage ());
 		}
 
 		protected override void OnStart ()

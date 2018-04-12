@@ -1,7 +1,10 @@
 ﻿using IOSTituloGrandeExemplo.Controles;
+using IOSTituloGrandeExemplo.iOS;
 using UIKit;
+using Xamarin.Forms;
 using Xamarin.Forms.Platform.iOS;
 
+[assembly: ExportRenderer(typeof(ContentPage), typeof(CustomPageRenderer))]
 namespace IOSTituloGrandeExemplo.iOS
 {
     public class CustomPageRenderer : PageRenderer

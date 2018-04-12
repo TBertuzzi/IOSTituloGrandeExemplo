@@ -88,7 +88,7 @@
     <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="CustomRenderer\CustomPageRenderercs.cs" />
+    <Compile Include="CustomRenderer\CustomPageRenderer.cs" />
     <Compile Include="Main.cs" />
     <Compile Include="AppDelegate.cs" />
     <None Include="Entitlements.plist" />
@@ -125,7 +125,7 @@
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <ItemGroup>
     <ProjectReference Include="..\IOSTituloGrandeExemplo\IOSTituloGrandeExemplo.csproj">
-      <Project>{FBD73A74-C491-4106-96ED-CA9123C1EF84}</Project>
+      <Project>{08C9D59E-81BA-4009-9EB6-90ED32184233}</Project>
       <Name>IOSTituloGrandeExemplo</Name>
     </ProjectReference>
   </ItemGroup>

@@ -1,11 +1,11 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
             xmlns:controle="clr-namespace:IOSTituloGrandeExemplo.Controles"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:IOSTituloGrandeExemplo"
              x:Class="IOSTituloGrandeExemplo.MainPage"
              Title="Titulo Grande!"
-             controle:TituloGrande.ExibirTituloGrande="True"
+             controle:TituloGrande.ExibirTituloGrande="False"
              >
 
 	<Label Text="Qual o tamanho do titulo?" 
